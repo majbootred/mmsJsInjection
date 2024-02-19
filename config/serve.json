@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://tsmms.sharepoint.com/sites/AnalyticsTest/SitePages/Our-Leadership.aspx",
+      "customActions": {
+        "96e13ef5-d035-4aef-bf91-1749df350ccd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "mmsJsInjection": {
+      "pageUrl": "https://tsmms.sharepoint.com/sites/AnalyticsTest/SitePages/Our-Leadership.aspx",
+      "customActions": {
+        "96e13ef5-d035-4aef-bf91-1749df350ccd": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
